@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VJ - Portfolio</title>
+    <link rel="shortcut icon" href="Image/icon.jpg" type="image/jpg">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!---------------HEADER SECTION STARTS - VJ------------------------>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#"><h2><span>V</span>J</h2></a>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#work">PROJECT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p><h1>Hi, I'm <br><span>Vijay Pandi.M</span></h1>
+            </div>
+        </div>
+    </div>
+<!-----------------HEADER SECTION ENDS - VJ---------------->
+
+<!-------------------ABOUT SECTION STARTS - VJ--------------------->
+    <div id="about">
+        <div class="container2">
+            <div class="row">
+                <div class="col1">
+                    <img src="Image/user.jpg" alt="pro">
+                </div>
+                <div class="col2">
+                    <h1 class="sub">About Me</h1><br>
+                    <p>I am a recently graduate in B.Sc (Computer Science).I have a keen interest in web development
+                    and programming. I have experience programming languages like Java &
+                    Python. I am also a quick learner and I am always eager to learn new things.</p><br>
+
+                    <div class="tab">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contains act-tab" id="skills">
+                        <ul>
+                            <li><span>Web Design</span><br>Designing Web Application</li>
+                            <li><span>Java Program Language</span><br>Strong Knowledge About OOPs concept</li>
+                            <li><span>MySQL</span><br>Basic Concepts</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="experience"> 
+                        <ul>
+                            <li><span>NOV 2022 - JAN 2023</span><br>NullClass Internship</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contains" id="Education">
+                        <ul>
+                            <li><span>Nadar Saraswathi Higher Secondary School - Theni</span><br>SSC - General Studies - 82.8%</li>
+                            <li><span>Nadar Saraswathi Higher Secondary School - Theni</span><br>Computer Science - 56.5%</li>
+                            <li><span>Nadar Mahajana Sangam S.Vellaichamy Nadar College - Madurai</span><br>Computer Science - 88.9%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--------------------------------ABOUT SECTION ENDS - VJ------------------------------- -->
+<!--------------------------------PRIJECT SECTION STARTS - VJ------------------------------ -->
+<div id="work">
+    <div class="container">
+        <h1 class="sub">PROJECT</h1><br>
+        <div class="work-list">
+            <div class="wrk">
+                <img src="Image/portfolio.jpg" alt="work">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>Tools :- Html CSS JavaScript<br>Responsive Personal Portfolio Web Page</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="wrk">
+                <img src="Image/xo_game.jpg" alt="work">
+                <div class="layer">
+                    <h3>Tic Tac Toe - Web Game</h3>
+                    <p>Tools :- JavaScript<br>2 Player Web Application based Game.</p>
+                    <a href="https://vijaypandi1402.github.io/XOgame.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="wrk">
+                <img src="Image/calu.jpg" alt="work">
+                <div class="layer">
+                    <h3>Online Calculator App</h3>
+                    <p>Tools :- Html CSS JavaScript <br>Calculator Web Application Using JavaScript.</p>
+                    <a href="https://vijaypandi1402.github.io/Calculator.github.io/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/VijayPandi14" class="btn">- Show More -</a>
+    </div>
+</div>
+<!--------------------------------Contact SECTION STARTS - VJ------------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="con-left">
+                <h1 class="sub">CONTACT ME</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>  mrvijay1402@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>  8973369195</p>
+                <div class="so-ic">
+                    <a href="https://www.linkedin.com/in/vijay-pandi-m-213850254"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/qr/YNH5SYBE6J2VO1"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://github.com/VijayPandi14"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://t.me/VijayPandi1402"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/smileyboymrvj/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Image/VJResume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="con-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Your E-Mail ID" required>
+                    <textarea name="message" rows="6" placeholder="Leave Your Message"></textarea>
+                    <button type="submit" class="btn btn2">SUBMIT</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>This WebSite Created by <a href="https://www.linkedin.com/in/vijay-pandi-m-213850254">VIJAY</a></p>
+    </div>
+</div>
+<!--------------------------------Contact SECTION ENDS - VJ-------------------------------->
+    <script src="script.js"></script>
+</body>
+</html>
