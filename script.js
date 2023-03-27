@@ -4,7 +4,7 @@ let marqueeContainer = document.getElementById('marquee-container');
 // calculate animation duration based on content width
 let contentWidth = marquee.offsetWidth;
 let containerWidth = marqueeContainer.offsetWidth;
-let duration = contentWidth / 89; // scroll at 50px/s
+let duration = contentWidth / 60; // scroll at 50px/s
 marquee.style.animationDuration = duration + 's';
 
 // when animation ends, hide the marquee
