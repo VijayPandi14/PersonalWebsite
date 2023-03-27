@@ -1,3 +1,17 @@
+let marquee = document.getElementById('marquee');
+let marqueeContainer = document.getElementById('marquee-container');
+
+// calculate animation duration based on content width
+let contentWidth = marquee.offsetWidth;
+let containerWidth = marqueeContainer.offsetWidth;
+let duration = contentWidth / 89; // scroll at 50px/s
+marquee.style.animationDuration = duration + 's';
+
+// when animation ends, hide the marquee
+marquee.addEventListener('animationend', function() {
+  marqueeContainer.style.display = 'none';
+});
+
 var tablinks =document.getElementsByClassName("tab-links");
 var tabcontains = document.getElementsByClassName("tab-contains");
 
@@ -20,7 +34,7 @@ function openmenu(){
     sidemenu.style.right="0";
 }
 function closemenu(){
-    sidemenu.style.right="-200px";
+    sidemenu.style.right="-100%";
 }
 
 // ---------- Contact Form ----------
