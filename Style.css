@@ -35,7 +35,7 @@ nav{
     backdrop-filter: blur(13px);
   }
   #marquee {
-    animation: marquee 5s linear;
+    animation: marquee 5s linear 2;
     font-size: 14px;
   }
   @keyframes marquee {
