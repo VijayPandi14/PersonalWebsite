@@ -1,6 +1,4 @@
-# PersonalWebsite.githun.io
-
-Personal Portfolio
+# PersonalWebsite
 
 This is my personal portfolio website showcasing my skills and projects. The website was built using HTML, CSS, and JavaScript.
 
