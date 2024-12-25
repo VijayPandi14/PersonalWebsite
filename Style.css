@@ -27,22 +27,6 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
-#marquee-container {
-    overflow: hidden;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.041);
-    text-align: right;
-    backdrop-filter: blur(13px);
-  }
-  #marquee {
-    animation: marquee 5s linear 2;
-    font-size: 14px;
-  }
-  @keyframes marquee {
-    0% { transform: translateX(100%); }
-    100% { transform: translateX(-100%); }
-  }
-  
 .container a{
     text-decoration: none;
     color: #fff;
